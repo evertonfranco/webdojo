@@ -1,0 +1,45 @@
+{
+  "personal": {
+    "name": "Fernando Papito",
+    "email": "papito@teste.com.br",
+    "phone": "11 99999-1000",
+    "consultancyType": "Individual",
+    "personType": "cpf",
+    "document": "08564732009",
+    "discoveryChannels": [
+      "Instagram",
+      "LinkedIn",
+      "Udemy",
+      "YouTube",
+      "Instagram",
+      "Indicação de Amigo"
+    ],
+    "file": "./cypress/fixtures/document.pdf",
+    "description": "vehiculaeudui.Duislaciniafringillamassa.Cumsociisnatoquepenati",
+    "techs": [
+      "Cypress",
+      "Selenium",
+      "WebDriverIO",
+      "Playwright",
+      "Robot Framework"
+    ],
+    "terms": true
+  },
+  "company": {
+    "name": "Fernando Papito",
+    "email": "papito@teste.com.br",
+    "phone": "11 99999-1000",
+    "consultancyType": "In Company",
+    "personType": "cnpj",
+    "document": "59359081000163",
+    "discoveryChannels": [
+      "LinkedIn"
+    ],
+    "file": "./cypress/fixtures/document.pdf",
+    "description": "vehiculaeudui.Duislaciniafringillamassa.Cumsociisnatoquepenati",
+    "techs": [
+      "Cypress"
+    ],
+    "terms": true
+  }
+}
