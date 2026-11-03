@@ -1,0 +1,24 @@
+info:
+  name: Update a user
+  type: http
+  seq: 4
+
+http:
+  method: PUT
+  url: http://localhost:3333/api/users/101
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Spiderman", 
+        "email": "spider@marvel.com" ,
+        "password": "pwd123"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
